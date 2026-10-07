@@ -1,0 +1,3 @@
+[ai]
+required = false
+description = "Analyze Hostel requires a connected AI provider. Existing demo views and simulator work without a key."

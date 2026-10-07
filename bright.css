@@ -1,0 +1,26 @@
+/* Bright EcoDorm palette */
+:root{--bg:#edf3ff;--panel:#ffffff;--line:#dbe2f1;--muted:#596780;--text:#202e4b;--green:#584cdb;--blue:#277abe;--orange:#9f6213}
+body{background:radial-gradient(ellipse at 90% 0,#ddd7ff99,transparent 55%),radial-gradient(ellipse at 10% 85%,#c8eaff88,transparent 60%),#edf3ff;background-attachment:fixed}
+aside{background:linear-gradient(180deg,#f9faff,#e9edff);border-color:#d8dff0}
+nav a.active{background:#e1ddfc;color:#4536ab}nav a:hover{background:#e7eafd;color:#33297d}
+.brand>span:last-child{background:#ebe6ff;border-color:#d2c9fa;color:#5542ba}.brand-icon{background:#6558df;color:white}
+.panel{background:linear-gradient(145deg,#ffffff,#f9fbff);border-color:#dbe2f1;box-shadow:0 4px 18px #4c5b8410}
+.score-panel{background:radial-gradient(ellipse at right top,#e5deff,transparent 70%),#fff}
+.ring{background:conic-gradient(#7162e8 calc(var(--score)*1%),#e5e7f5 0);box-shadow:0 0 0 9px #6558df05}.ring-inner{background:#fff}
+.button,button.primary{background:linear-gradient(110deg,#6653de,#488ae3);color:white}
+.secondary{background:#edf0fc;border-color:#d5dcf1;color:#35456a}
+select,input{background:#f8faff;color:#263553;border-color:#d2dcee}input:focus,select:focus{background:white;border-color:#7462d8}
+.bar-track{background:#e7ebf6}.bar-fill{background:linear-gradient(90deg,#609adf,#8a6de5)}
+.banner{background:linear-gradient(115deg,#e5e4ff,#e0efff);border-color:#ced8f4}
+.impact-stats strong{color:#343477}.banner h3{color:#4e40ad}
+.metric-card:hover{background-color:#f5f3ff;border-color:#b7abe9}
+.metric-icon{background:#edf0ff;border-color:#d8dff4;color:#5b58b5}
+.tag{color:#5141ae;background:#ece8fc;border-color:#d5cdf5}.tag.blue{color:#28689f;background:#e6f2ff;border-color:#c9dfee}.tag.warn{color:#986016;background:#fff4dd;border-color:#eddab0}
+.number{background:#eeebfd;border-color:#d8d1f7;color:#5848b7}
+.filters{background:#fff;border-color:#d6def0}.filters button.active{background:#e9e4fc;color:#5141ae}
+.avatar{background:#e7e4fb;color:#5544a8;border-color:#cdc7ee}.icon-button span{background:#6152d4;color:#fff}
+.chart-tooltip{background:#fff;border-color:#bcb1e9;color:#263553;box-shadow:0 4px 18px #4c5b8420}
+dialog{background:#fff;color:#263553;border-color:#cdd7ee}.mobile-menu{background:#e7e5fa;color:#5542b5;border-color:#cdc7ee}
+#notice{background:#ede9ff;border-color:#cdc3f1;color:#403275}
+tbody tr:hover{background:#f3f2ff}.skeleton div{background:linear-gradient(100deg,#e6eafa,#f5f6ff,#e6eafa);background-size:200% 100%}
+.chart line{stroke:#dbe2ef}.sparkline polyline{stroke:#7262d6}.alert-dot{background:#ca9148}.ai-heading svg{stroke:#6152c5}
